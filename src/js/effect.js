@@ -31,6 +31,7 @@ $('document').ready(function(){
 			$('#play').fadeIn('slow');
 		});
 	});
+	
 	$('#play').click(function(){
 		var audio = $('.song')[0];
         audio.play();

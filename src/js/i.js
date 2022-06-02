@@ -10,7 +10,7 @@ $('#turn_on').click(function(){
     });
   });
   
-  $(this).fadeOut('slow').delay(5000).promise().done(function(){
+  $(this).fadeOut('slow').delay(7000).promise().done(function(){
     $('#view_message').fadeIn('slow');
   });
 });
@@ -56,4 +56,5 @@ $('#view_gifts').click(function() {
 
 $('.box').click(function() {
   setTimeout($('#memberModal').modal('show'), 1000);
+  $('.pyro').fadeIn('slow');
 });

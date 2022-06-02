@@ -48,7 +48,6 @@ $('#view_message').click(function(){
 
 
 $('#view_gifts').click(function() {
-  //$('#gift').addClass('bannar-come');
   $('#bob').fadeOut('slow');
   $('#gift').fadeIn('slow');
   $(this).fadeOut('slow');

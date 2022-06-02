@@ -42,16 +42,14 @@ body {
 #bubbles, #content, #sand, #messages, #play_song, #view_message, #view_gifts {
   display: none;
 }
-
 @font-face {
-  font-family: 'SpongeBob Font Condensed';
-  font-style: normal;
-  font-weight: 500;
-  src: local('SpongeBob Font Condensed'), url('./SpongebobFontCondensedRegular-3zZEy.woff') format('woff');
+  font-family: myFirstFont;
+  src: url(../font/sponge.woff);
+  font-weight: bold;
 }
 
 .sponge {
-  font-family: 'SpongeBob Font Condensed';
+  font-family: myFirstFont;
   color:#eedf0d;
   text-shadow: 2px 2px 2px rgb(0, 0, 0);
   font-weight: bold;
